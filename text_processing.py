@@ -8,6 +8,7 @@ def normalize(input_string):
 
 
 def no_vowels(input_string):
+
     res = []
     for i in range(len(input_string)):
         is_vowel = False
