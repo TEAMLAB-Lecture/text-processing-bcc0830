@@ -12,7 +12,7 @@ def no_vowels(input_string):
     for i in range(len(input_string)):
         is_vowel = False
         for j in ['a', 'e', 'i', 'o', 'u']:
-            if i == j:
+            if input_string[i] == j:
                 is_vowel = True
                 break
         if not is_vowel:
